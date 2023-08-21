@@ -1,8 +1,66 @@
-body{
+/* body{
   background-image: url(https://www.rent.com/blog/wp-content/uploads/2020/08/pittsburgh_pa_shutterstock_110975822.jpeg);
   font-family: sans-serif;
   padding: 20px;
 }
 .form{
   background-image: url(https://png.pngtree.com/background/20220726/original/pngtree-stock-market-computer-network-abstract-picture-image_1820986.jpg)
+} */
+
+body{
+  background-image: url(https://images.saatchiart.com/saatchi/1048370/art/5662767/4732573-HSC00002-7.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: black;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1,p{
+  margin: 1em auto;
+  text-align: center;
+}
+div{
+  background-image: url(https://previews.123rf.com/images/brunoilfo/brunoilfo1310/brunoilfo131000006/24225375-100-dollar-bills-background-vertical-photo.jpg);
+  width: 90%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  vertical-align: middle;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
 }
